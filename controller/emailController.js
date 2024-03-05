@@ -7,7 +7,7 @@ const sendEmail = async (req, res) => {
     const msg = {
       to: req.body.receiverEmail,
       from: {
-        name: "HIDDEN THERAPY",
+        name: "EBOTZZ",
         email: process.env.SENDGRID_SENDER_EMAIL,
       },
       subject: "Sent Product Details",
